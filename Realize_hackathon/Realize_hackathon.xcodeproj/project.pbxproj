@@ -280,7 +280,6 @@
 				817F5E072349D8AD00436BB0 /* Boston-SemiBold.otf in Resources */,
 				812F01BD2349A55E00E10135 /* LaunchScreen.storyboard in Resources */,
 				812F01BA2349A55E00E10135 /* Assets.xcassets in Resources */,
-
 				817F5E0D2349D8AD00436BB0 /* Boston-ExtraLightIt.otf in Resources */,
 				817F5E0A2349D8AD00436BB0 /* Boston-BoldIt.otf in Resources */,
 				817F5E052349D8AD00436BB0 /* Boston-HeavyIt.otf in Resources */,
@@ -288,9 +287,7 @@
 				817F5E062349D8AD00436BB0 /* Boston-ExtraLight.otf in Resources */,
 				817F5DF32349CE5000436BB0 /* SignInStoryboard.storyboard in Resources */,
 				817F5E0C2349D8AD00436BB0 /* Boston-Thin.otf in Resources */,
-
 				77A0A6762349CCDE00291659 /* cardSelection.storyboard in Resources */,
-
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -19,6 +19,8 @@ class LoginViewController: UIViewController, UITextFieldDelegate {
     @IBOutlet weak var labelsView: UIView!
     @IBOutlet weak var lblCpf: UILabel!
     
+    @IBOutlet weak var requestCardButtonAction: UIButton!
+    @IBOutlet weak var requestCardButton: UIButton!
     override func viewDidLoad() {
         super.viewDidLoad()
         
