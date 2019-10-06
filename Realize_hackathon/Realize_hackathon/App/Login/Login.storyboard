@@ -21,7 +21,7 @@
         <!--Login View Controller-->
         <scene sceneID="eV1-Vj-z6E">
             <objects>
-                <viewController id="qDZ-nP-RLR" customClass="LoginViewController" customModule="Realize_hackathon" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="LoginView" id="qDZ-nP-RLR" customClass="LoginViewController" customModule="Realize_hackathon" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="K7W-dI-VCy">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>

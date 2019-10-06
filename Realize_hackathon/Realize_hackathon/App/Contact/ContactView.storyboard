@@ -18,7 +18,7 @@
         <!--Contact View Controller-->
         <scene sceneID="EU8-dL-xFK">
             <objects>
-                <viewController id="4Jo-k5-E12" customClass="ContactViewController" customModule="Realize_hackathon" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="Contact" id="4Jo-k5-E12" customClass="ContactViewController" customModule="Realize_hackathon" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="9zC-WL-5jG">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -43,6 +43,9 @@
                                         <state key="normal" title="Confirmar">
                                             <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </state>
+                                        <connections>
+                                            <segue destination="hE4-Vc-n1W" kind="show" id="SZz-Q8-UnV"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                             </view>
@@ -72,6 +75,16 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="9Ac-Pf-G26" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="18.840579710144929" y="174.77678571428569"/>
+        </scene>
+        <!--EmailView-->
+        <scene sceneID="CKh-Uz-3AU">
+            <objects>
+                <viewControllerPlaceholder storyboardName="EmailView" id="hE4-Vc-n1W" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="mdk-GJ-9RR"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="oWb-dr-P4e" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="559" y="304"/>
         </scene>
     </scenes>
 </document>

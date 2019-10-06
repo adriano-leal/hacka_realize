@@ -11,12 +11,12 @@ import UIKit
 class SingInCpfViewController: UIViewController {
 
     @IBOutlet weak var labelsView: UIView!
+
+    @IBOutlet weak var cpfField: UITextField!
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        self.view.backgroundColor = .white
         
-        
+        self.cpfField.becomeFirstResponder()
         NotificationCenter.default.addObserver(self, selector: #selector(keyboardWillChange(notification:)), name: UIResponder.keyboardWillShowNotification , object: nil)
         
         NotificationCenter.default.addObserver(self, selector: #selector(keyboardWillChange(notification:)), name: UIResponder.keyboardWillHideNotification , object: nil)

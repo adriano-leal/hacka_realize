@@ -15,7 +15,7 @@
         <!--Email View Controller-->
         <scene sceneID="MpW-95-Dga">
             <objects>
-                <viewController id="oYj-Nm-L0Y" customClass="EmailViewController" customModule="Realize_hackathon" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="Email" id="oYj-Nm-L0Y" customClass="EmailViewController" customModule="Realize_hackathon" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="RVR-ks-Znr">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>

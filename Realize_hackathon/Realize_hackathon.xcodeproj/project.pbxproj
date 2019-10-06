@@ -42,6 +42,7 @@
 		817F5E122349D8AD00436BB0 /* Boston-Heavy.otf in Resources */ = {isa = PBXBuildFile; fileRef = 817F5E022349D8AD00436BB0 /* Boston-Heavy.otf */; };
 		817F5E132349D8AD00436BB0 /* Boston-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 817F5E032349D8AD00436BB0 /* Boston-Regular.otf */; };
 		817F5E142349D8AD00436BB0 /* Boston-BlackIt.otf in Resources */ = {isa = PBXBuildFile; fileRef = 817F5E042349D8AD00436BB0 /* Boston-BlackIt.otf */; };
+		819D8261234A1899003DC7CF /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 819D8260234A1899003DC7CF /* Constants.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -84,6 +85,7 @@
 		817F5E022349D8AD00436BB0 /* Boston-Heavy.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Boston-Heavy.otf"; sourceTree = "<group>"; };
 		817F5E032349D8AD00436BB0 /* Boston-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Boston-Regular.otf"; sourceTree = "<group>"; };
 		817F5E042349D8AD00436BB0 /* Boston-BlackIt.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Boston-BlackIt.otf"; sourceTree = "<group>"; };
+		819D8260234A1899003DC7CF /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		951655032234D2A30657C09A /* Pods-Realize_hackathon.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Realize_hackathon.debug.xcconfig"; path = "Target Support Files/Pods-Realize_hackathon/Pods-Realize_hackathon.debug.xcconfig"; sourceTree = "<group>"; };
 		E48649113AD9D49964523727 /* Pods_Realize_hackathon.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Realize_hackathon.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -193,6 +195,7 @@
 		812F01AF2349A55A00E10135 /* Realize_hackathon */ = {
 			isa = PBXGroup;
 			children = (
+				819D825F234A1879003DC7CF /* Identifiers */,
 				812F01C72349A59500E10135 /* Model */,
 				812F01C62349A58A00E10135 /* App */,
 				812F01C42349A57700E10135 /* Support */,
@@ -273,6 +276,14 @@
 				817F5E042349D8AD00436BB0 /* Boston-BlackIt.otf */,
 			);
 			path = "Boston-Family";
+			sourceTree = "<group>";
+		};
+		819D825F234A1879003DC7CF /* Identifiers */ = {
+			isa = PBXGroup;
+			children = (
+				819D8260234A1899003DC7CF /* Constants.swift */,
+			);
+			path = Identifiers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -417,6 +428,7 @@
 				811D53BD2349EAFE00C17E02 /* ContactViewController.swift in Sources */,
 				812F01CC2349A5FA00E10135 /* LoginViewController.swift in Sources */,
 				770F2F2A2349E9A00077F493 /* SingInCpfViewController.swift in Sources */,
+				819D8261234A1899003DC7CF /* Constants.swift in Sources */,
 				77A0A67A2349CD6300291659 /* cardSelectionViewController.swift in Sources */,
 				812F01B12349A55A00E10135 /* AppDelegate.swift in Sources */,
 				811D53BA2349EA2E00C17E02 /* IDValidationViewController.swift in Sources */,
