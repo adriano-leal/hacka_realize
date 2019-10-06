@@ -17,7 +17,7 @@ class SignInViewController: UIViewController {
         super.viewDidLoad()
         
         self.view.backgroundColor = .white
-        self.nameLabel.becomeFirstResponder()
+//        self.nameLabel.becomeFirstResponder()
         
         NotificationCenter.default.addObserver(self, selector: #selector(keyboardWillChange(notification:)), name: UIResponder.keyboardWillShowNotification , object: nil)
         
@@ -32,18 +32,17 @@ class SignInViewController: UIViewController {
     }
     
     @objc func keyboardWillChange(notification: NotificationCenter) {
-        self.labelsView.frame.size.height = -39
+        self.labelsView.frame.size.height = -60
     }
     
-    func textFieldShouldReturn() -> Bool {
-        nameLabel.resignFirstResponder()
-        return true
-    }
+//    func textFieldShouldReturn() -> Bool {
+//        nameLabel.resignFirstResponder()
+//        return true
+//    }
 
-    override func viewWillAppear(_ animated: Bool) {
-        self.navigationController?.isNavigationBarHidden = true
-        self.navigationItem.rightBarButtonItem = UIBarButtonItem(title: "1 de 5", style: .plain , target: nil, action: nil)
-        self.navigationItem.backBarButtonItem = UIBarButtonItem(title: "", style: .plain, target: nil, action: nil)
-        nameLabel.isFirstResponder
-    }
+//    override func viewWillAppear(_ animated: Bool) {
+//        self.navigationController?.isNavigationBarHidden = true
+//        self.navigationItem.rightBarButtonItem = UIBarButtonItem(title: "1 de 5", style: .plain , target: nil, action: nil)
+//        self.navigationItem.backBarButtonItem = UIBarButtonItem(title: "", style: .plain, target: nil, action: nil)
+//    }
 }

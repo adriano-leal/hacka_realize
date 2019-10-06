@@ -41,7 +41,7 @@ class LoginViewController: UIViewController, UITextFieldDelegate {
         NotificationCenter.default.addObserver(self, selector: #selector(keyboardWillChange(notification:)), name: UIResponder.keyboardWillChangeFrameNotification , object: nil)
 
         
-        cpfField.addTarget(self, action: #selector(hideCpf), for: .editingDidBegin)
+//        cpfField.addTarget(self, action: #selector(hideCpf), for: .editingDidBegin)
     }
     
     deinit {
@@ -50,20 +50,24 @@ class LoginViewController: UIViewController, UITextFieldDelegate {
         NotificationCenter.default.removeObserver(self, name: UIResponder.keyboardWillChangeFrameNotification, object: nil)
     }
     
-    @objc func hideCpf() {
-        lblCpf.isHidden = true
-    }
+//    override func viewWillAppear(_ animated: Bool) {
+//        self.navigationController?.isNavigationBarHidden = false
+//    }
+    
+//    @objc func hideCpf() {
+//        lblCpf.isHidden = true
+//    }
     
     @objc func keyboardWillChange(notification: NotificationCenter) {
         self.labelsView.frame.size.height = -60
     }
     
-    @objc func DismissKeyboard(){ view.endEditing(true) }
+//    @objc func DismissKeyboard(){ view.endEditing(true) }
     
-    func hideKeyboard() {
-        let tap:UITapGestureRecognizer = UITapGestureRecognizer(target: self, action: #selector(DismissKeyboard))
-        view.addGestureRecognizer(tap)
-    }
+//    func hideKeyboard() {
+//        let tap:UITapGestureRecognizer = UITapGestureRecognizer(target: self, action: #selector(DismissKeyboard))
+//        view.addGestureRecognizer(tap)
+//    }
     
 }
 

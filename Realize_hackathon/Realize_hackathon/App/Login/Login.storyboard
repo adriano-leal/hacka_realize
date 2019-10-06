@@ -121,6 +121,7 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="tbQ-65-r9R"/>
                     </view>
+                    <navigationItem key="navigationItem" id="22m-Ca-ahT"/>
                     <connections>
                         <outlet property="cpfField" destination="7ZH-H7-TXw" id="0JG-12-eQt"/>
                         <outlet property="labelsView" destination="Fbk-HZ-1qH" id="wYa-zk-nGY"/>
@@ -131,17 +132,17 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="NRh-AX-rNu" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-184.05797101449278" y="-99.107142857142847"/>
+            <point key="canvasLocation" x="726.08695652173924" y="-99.107142857142847"/>
         </scene>
         <!--cardSelection-->
         <scene sceneID="stE-db-M3S">
             <objects>
-                <viewControllerPlaceholder storyboardIdentifier="cardDetails" storyboardName="cardSelection" id="OkR-df-VMN" sceneMemberID="viewController">
+                <viewControllerPlaceholder storyboardName="cardSelection" id="OkR-df-VMN" sceneMemberID="viewController">
                     <navigationItem key="navigationItem" id="K2Y-Di-Dr5"/>
                 </viewControllerPlaceholder>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Zev-gB-ekl" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="371" y="-87"/>
+            <point key="canvasLocation" x="1420" y="-99"/>
         </scene>
     </scenes>
     <resources>

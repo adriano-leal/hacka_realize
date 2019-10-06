@@ -21,8 +21,7 @@
         <!--Card Selection View Controller-->
         <scene sceneID="HkE-O4-nUo">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="KAT-Oa-2c6" userLabel="First Responder" customClass="UIResponder" propertyAccessControl="none" sceneMemberID="firstResponder"/>
-                <viewController storyboardIdentifier="cardDetails" id="Jhp-5M-etA" customClass="cardSelectionViewController" customModule="Realize_hackathon" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="Jhp-5M-etA" customClass="cardSelectionViewController" customModule="Realize_hackathon" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="c5d-OS-u9d">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -139,7 +138,7 @@
                                             <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </state>
                                         <connections>
-                                            <segue destination="n87-IO-Lvm" kind="show" id="p2u-a3-4kX"/>
+                                            <segue destination="v0j-7k-QhJ" kind="show" id="PCU-rj-KFT"/>
                                         </connections>
                                     </button>
                                 </subviews>
@@ -153,18 +152,19 @@
                         <outlet property="viewCard" destination="AiQ-wd-OUr" id="VSy-4P-7mh"/>
                     </connections>
                 </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="KAT-Oa-2c6" userLabel="First Responder" customClass="UIResponder" propertyAccessControl="none" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-2323.1884057971015" y="-285.26785714285711"/>
         </scene>
         <!--SignInStoryboard-->
-        <scene sceneID="TmT-1U-kTX">
+        <scene sceneID="Tdk-DA-LFH">
             <objects>
-                <viewControllerPlaceholder storyboardName="SignInStoryboard" id="n87-IO-Lvm" sceneMemberID="viewController">
-                    <navigationItem key="navigationItem" id="N4K-QM-GcA"/>
+                <viewControllerPlaceholder storyboardName="SignInStoryboard" id="v0j-7k-QhJ" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="5wp-SZ-J0B"/>
                 </viewControllerPlaceholder>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="PGr-tc-RfB" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="kNk-hY-1ax" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1617" y="-285"/>
+            <point key="canvasLocation" x="-1750" y="-245"/>
         </scene>
     </scenes>
     <resources>

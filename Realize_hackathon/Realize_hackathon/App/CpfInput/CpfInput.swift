@@ -1,5 +1,5 @@
 //
-//  IDValidationViewController.swift
+//  CpfInput.swift
 //  Realize_hackathon
 //
 //  Created by Adriano Ramos on 06/10/19.
@@ -8,11 +8,13 @@
 
 import UIKit
 
-class IDValidationViewController: UIViewController {
-
+class CpfInput: UIViewController {
+    @IBOutlet weak var textField: UITextField!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
         
+        self.textField.becomeFirstResponder()
     }
+    
 }
