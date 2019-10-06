@@ -12,8 +12,10 @@
 		770F2F2A2349E9A00077F493 /* SingInCpfViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 770F2F292349E9A00077F493 /* SingInCpfViewController.swift */; };
 		77A0A6762349CCDE00291659 /* cardSelection.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 77A0A6752349CCDE00291659 /* cardSelection.storyboard */; };
 		77A0A67A2349CD6300291659 /* cardSelectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77A0A6792349CD6300291659 /* cardSelectionViewController.swift */; };
-		77AD3CFC234A195300AB1F01 /* identityStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 77AD3CFB234A195300AB1F01 /* identityStoryboard.storyboard */; };
-		77AD3CFE234A196D00AB1F01 /* identityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77AD3CFD234A196D00AB1F01 /* identityViewController.swift */; };
+		77AD3CFC234A195300AB1F01 /* IdentityStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 77AD3CFB234A195300AB1F01 /* IdentityStoryboard.storyboard */; };
+		77AD3CFE234A196D00AB1F01 /* IdentityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77AD3CFD234A196D00AB1F01 /* IdentityViewController.swift */; };
+		77AD3D01234A1D5500AB1F01 /* FinishCardStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 77AD3D00234A1D5500AB1F01 /* FinishCardStoryboard.storyboard */; };
+		77AD3D03234A1D8D00AB1F01 /* FinishCardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77AD3D02234A1D8D00AB1F01 /* FinishCardViewController.swift */; };
 		811D53B82349EA1000C17E02 /* IDValidation.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 811D53B72349EA1000C17E02 /* IDValidation.storyboard */; };
 		811D53BA2349EA2E00C17E02 /* IDValidationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 811D53B92349EA2E00C17E02 /* IDValidationViewController.swift */; };
 		811D53BD2349EAFE00C17E02 /* ContactViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 811D53BC2349EAFE00C17E02 /* ContactViewController.swift */; };
@@ -52,8 +54,10 @@
 		770F2F292349E9A00077F493 /* SingInCpfViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingInCpfViewController.swift; sourceTree = "<group>"; };
 		77A0A6752349CCDE00291659 /* cardSelection.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = cardSelection.storyboard; sourceTree = "<group>"; };
 		77A0A6792349CD6300291659 /* cardSelectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cardSelectionViewController.swift; sourceTree = "<group>"; };
-		77AD3CFB234A195300AB1F01 /* identityStoryboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = identityStoryboard.storyboard; sourceTree = "<group>"; };
-		77AD3CFD234A196D00AB1F01 /* identityViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = identityViewController.swift; sourceTree = "<group>"; };
+		77AD3CFB234A195300AB1F01 /* IdentityStoryboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = IdentityStoryboard.storyboard; sourceTree = "<group>"; };
+		77AD3CFD234A196D00AB1F01 /* IdentityViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IdentityViewController.swift; sourceTree = "<group>"; };
+		77AD3D00234A1D5500AB1F01 /* FinishCardStoryboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = FinishCardStoryboard.storyboard; sourceTree = "<group>"; };
+		77AD3D02234A1D8D00AB1F01 /* FinishCardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinishCardViewController.swift; sourceTree = "<group>"; };
 		811D53B72349EA1000C17E02 /* IDValidation.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = IDValidation.storyboard; sourceTree = "<group>"; };
 		811D53B92349EA2E00C17E02 /* IDValidationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IDValidationViewController.swift; sourceTree = "<group>"; };
 		811D53BC2349EAFE00C17E02 /* ContactViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactViewController.swift; sourceTree = "<group>"; };
@@ -142,10 +146,19 @@
 		77AD3CFA234A193800AB1F01 /* Identity */ = {
 			isa = PBXGroup;
 			children = (
-				77AD3CFB234A195300AB1F01 /* identityStoryboard.storyboard */,
-				77AD3CFD234A196D00AB1F01 /* identityViewController.swift */,
+				77AD3CFB234A195300AB1F01 /* IdentityStoryboard.storyboard */,
+				77AD3CFD234A196D00AB1F01 /* IdentityViewController.swift */,
 			);
 			path = Identity;
+			sourceTree = "<group>";
+		};
+		77AD3CFF234A1D2300AB1F01 /* FinishCard */ = {
+			isa = PBXGroup;
+			children = (
+				77AD3D00234A1D5500AB1F01 /* FinishCardStoryboard.storyboard */,
+				77AD3D02234A1D8D00AB1F01 /* FinishCardViewController.swift */,
+			);
+			path = FinishCard;
 			sourceTree = "<group>";
 		};
 		811D53B62349E9E100C17E02 /* IDValidation */ = {
@@ -229,6 +242,7 @@
 		812F01C62349A58A00E10135 /* App */ = {
 			isa = PBXGroup;
 			children = (
+				77AD3CFF234A1D2300AB1F01 /* FinishCard */,
 				77AD3CFA234A193800AB1F01 /* Identity */,
 				811D53C62349F36700C17E02 /* Email */,
 				770F2F262349E93B0077F493 /* SingInCpf */,
@@ -349,6 +363,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				77AD3D01234A1D5500AB1F01 /* FinishCardStoryboard.storyboard in Resources */,
 				817F5E0E2349D8AD00436BB0 /* Boston-SemiBoldIt.otf in Resources */,
 				817F5E102349D8AD00436BB0 /* Boston-Light.otf in Resources */,
 				817F5E122349D8AD00436BB0 /* Boston-Heavy.otf in Resources */,
@@ -358,7 +373,7 @@
 				811D53CA2349F36700C17E02 /* EmailView.storyboard in Resources */,
 				817F5E0B2349D8AD00436BB0 /* Boston-Black.otf in Resources */,
 				817F5E112349D8AD00436BB0 /* Boston-LightIt.otf in Resources */,
-				77AD3CFC234A195300AB1F01 /* identityStoryboard.storyboard in Resources */,
+				77AD3CFC234A195300AB1F01 /* IdentityStoryboard.storyboard in Resources */,
 				817F5E082349D8AD00436BB0 /* Boston-Bold.otf in Resources */,
 				817F5E142349D8AD00436BB0 /* Boston-BlackIt.otf in Resources */,
 				817F5E072349D8AD00436BB0 /* Boston-SemiBold.otf in Resources */,
@@ -427,13 +442,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				77AD3CFE234A196D00AB1F01 /* identityViewController.swift in Sources */,
+				77AD3CFE234A196D00AB1F01 /* IdentityViewController.swift in Sources */,
 				811D53CB2349F3DB00C17E02 /* EmailViewController.swift in Sources */,
 				817F5DEF2349CE3200436BB0 /* SignInViewController.swift in Sources */,
 				811D53BD2349EAFE00C17E02 /* ContactViewController.swift in Sources */,
 				812F01CC2349A5FA00E10135 /* LoginViewController.swift in Sources */,
 				770F2F2A2349E9A00077F493 /* SingInCpfViewController.swift in Sources */,
 				77A0A67A2349CD6300291659 /* cardSelectionViewController.swift in Sources */,
+				77AD3D03234A1D8D00AB1F01 /* FinishCardViewController.swift in Sources */,
 				812F01B12349A55A00E10135 /* AppDelegate.swift in Sources */,
 				811D53BA2349EA2E00C17E02 /* IDValidationViewController.swift in Sources */,
 				812F01B32349A55A00E10135 /* SceneDelegate.swift in Sources */,
