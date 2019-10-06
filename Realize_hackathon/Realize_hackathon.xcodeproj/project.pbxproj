@@ -12,6 +12,8 @@
 		770F2F2A2349E9A00077F493 /* SingInCpfViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 770F2F292349E9A00077F493 /* SingInCpfViewController.swift */; };
 		77A0A6762349CCDE00291659 /* cardSelection.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 77A0A6752349CCDE00291659 /* cardSelection.storyboard */; };
 		77A0A67A2349CD6300291659 /* cardSelectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77A0A6792349CD6300291659 /* cardSelectionViewController.swift */; };
+		77AD3CFC234A195300AB1F01 /* identityStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 77AD3CFB234A195300AB1F01 /* identityStoryboard.storyboard */; };
+		77AD3CFE234A196D00AB1F01 /* identityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77AD3CFD234A196D00AB1F01 /* identityViewController.swift */; };
 		811D53B82349EA1000C17E02 /* IDValidation.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 811D53B72349EA1000C17E02 /* IDValidation.storyboard */; };
 		811D53BA2349EA2E00C17E02 /* IDValidationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 811D53B92349EA2E00C17E02 /* IDValidationViewController.swift */; };
 		811D53BD2349EAFE00C17E02 /* ContactViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 811D53BC2349EAFE00C17E02 /* ContactViewController.swift */; };
@@ -50,6 +52,8 @@
 		770F2F292349E9A00077F493 /* SingInCpfViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingInCpfViewController.swift; sourceTree = "<group>"; };
 		77A0A6752349CCDE00291659 /* cardSelection.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = cardSelection.storyboard; sourceTree = "<group>"; };
 		77A0A6792349CD6300291659 /* cardSelectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cardSelectionViewController.swift; sourceTree = "<group>"; };
+		77AD3CFB234A195300AB1F01 /* identityStoryboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = identityStoryboard.storyboard; sourceTree = "<group>"; };
+		77AD3CFD234A196D00AB1F01 /* identityViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = identityViewController.swift; sourceTree = "<group>"; };
 		811D53B72349EA1000C17E02 /* IDValidation.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = IDValidation.storyboard; sourceTree = "<group>"; };
 		811D53B92349EA2E00C17E02 /* IDValidationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IDValidationViewController.swift; sourceTree = "<group>"; };
 		811D53BC2349EAFE00C17E02 /* ContactViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactViewController.swift; sourceTree = "<group>"; };
@@ -135,6 +139,15 @@
 			path = CardSelection;
 			sourceTree = "<group>";
 		};
+		77AD3CFA234A193800AB1F01 /* Identity */ = {
+			isa = PBXGroup;
+			children = (
+				77AD3CFB234A195300AB1F01 /* identityStoryboard.storyboard */,
+				77AD3CFD234A196D00AB1F01 /* identityViewController.swift */,
+			);
+			path = Identity;
+			sourceTree = "<group>";
+		};
 		811D53B62349E9E100C17E02 /* IDValidation */ = {
 			isa = PBXGroup;
 			children = (
@@ -216,6 +229,7 @@
 		812F01C62349A58A00E10135 /* App */ = {
 			isa = PBXGroup;
 			children = (
+				77AD3CFA234A193800AB1F01 /* Identity */,
 				811D53C62349F36700C17E02 /* Email */,
 				770F2F262349E93B0077F493 /* SingInCpf */,
 				817F5DED2349CE1800436BB0 /* SignIn */,
@@ -344,6 +358,7 @@
 				811D53CA2349F36700C17E02 /* EmailView.storyboard in Resources */,
 				817F5E0B2349D8AD00436BB0 /* Boston-Black.otf in Resources */,
 				817F5E112349D8AD00436BB0 /* Boston-LightIt.otf in Resources */,
+				77AD3CFC234A195300AB1F01 /* identityStoryboard.storyboard in Resources */,
 				817F5E082349D8AD00436BB0 /* Boston-Bold.otf in Resources */,
 				817F5E142349D8AD00436BB0 /* Boston-BlackIt.otf in Resources */,
 				817F5E072349D8AD00436BB0 /* Boston-SemiBold.otf in Resources */,
@@ -412,6 +427,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				77AD3CFE234A196D00AB1F01 /* identityViewController.swift in Sources */,
 				811D53CB2349F3DB00C17E02 /* EmailViewController.swift in Sources */,
 				817F5DEF2349CE3200436BB0 /* SignInViewController.swift in Sources */,
 				811D53BD2349EAFE00C17E02 /* ContactViewController.swift in Sources */,
