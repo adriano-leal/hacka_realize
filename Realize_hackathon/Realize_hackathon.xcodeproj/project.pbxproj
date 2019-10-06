@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		5956CC67B928AFB341024BF5 /* Pods_Realize_hackathon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E48649113AD9D49964523727 /* Pods_Realize_hackathon.framework */; };
+		77A0A6762349CCDE00291659 /* cardSelection.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 77A0A6752349CCDE00291659 /* cardSelection.storyboard */; };
+		77A0A67A2349CD6300291659 /* cardSelectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77A0A6792349CD6300291659 /* cardSelectionViewController.swift */; };
 		812F01B12349A55A00E10135 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 812F01B02349A55A00E10135 /* AppDelegate.swift */; };
 		812F01B32349A55A00E10135 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 812F01B22349A55A00E10135 /* SceneDelegate.swift */; };
 		812F01BA2349A55E00E10135 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 812F01B92349A55E00E10135 /* Assets.xcassets */; };
@@ -36,6 +38,8 @@
 
 /* Begin PBXFileReference section */
 		6889023CEA55A5E3106D82E7 /* Pods-Realize_hackathon.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Realize_hackathon.release.xcconfig"; path = "Target Support Files/Pods-Realize_hackathon/Pods-Realize_hackathon.release.xcconfig"; sourceTree = "<group>"; };
+		77A0A6752349CCDE00291659 /* cardSelection.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = cardSelection.storyboard; sourceTree = "<group>"; };
+		77A0A6792349CD6300291659 /* cardSelectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cardSelectionViewController.swift; sourceTree = "<group>"; };
 		812F01AD2349A55A00E10135 /* Realize_hackathon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Realize_hackathon.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		812F01B02349A55A00E10135 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		812F01B22349A55A00E10135 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -95,6 +99,15 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		77A0A6742349CCC200291659 /* CardSelection */ = {
+			isa = PBXGroup;
+			children = (
+				77A0A6792349CD6300291659 /* cardSelectionViewController.swift */,
+				77A0A6752349CCDE00291659 /* cardSelection.storyboard */,
+			);
+			path = CardSelection;
+			sourceTree = "<group>";
+		};
 		812F01A42349A55A00E10135 = {
 			isa = PBXGroup;
 			children = (
@@ -139,6 +152,7 @@
 		812F01C62349A58A00E10135 /* App */ = {
 			isa = PBXGroup;
 			children = (
+				77A0A6742349CCC200291659 /* CardSelection */,
 				812F01C82349A5B300E10135 /* Login */,
 				817F5DED2349CE1800436BB0 /* SignIn */,
 			);
@@ -266,6 +280,7 @@
 				817F5E072349D8AD00436BB0 /* Boston-SemiBold.otf in Resources */,
 				812F01BD2349A55E00E10135 /* LaunchScreen.storyboard in Resources */,
 				812F01BA2349A55E00E10135 /* Assets.xcassets in Resources */,
+
 				817F5E0D2349D8AD00436BB0 /* Boston-ExtraLightIt.otf in Resources */,
 				817F5E0A2349D8AD00436BB0 /* Boston-BoldIt.otf in Resources */,
 				817F5E052349D8AD00436BB0 /* Boston-HeavyIt.otf in Resources */,
@@ -273,6 +288,9 @@
 				817F5E062349D8AD00436BB0 /* Boston-ExtraLight.otf in Resources */,
 				817F5DF32349CE5000436BB0 /* SignInStoryboard.storyboard in Resources */,
 				817F5E0C2349D8AD00436BB0 /* Boston-Thin.otf in Resources */,
+
+				77A0A6762349CCDE00291659 /* cardSelection.storyboard in Resources */,
+
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -327,6 +345,7 @@
 			files = (
 				817F5DEF2349CE3200436BB0 /* SignInViewController.swift in Sources */,
 				812F01CC2349A5FA00E10135 /* LoginViewController.swift in Sources */,
+				77A0A67A2349CD6300291659 /* cardSelectionViewController.swift in Sources */,
 				812F01B12349A55A00E10135 /* AppDelegate.swift in Sources */,
 				812F01B32349A55A00E10135 /* SceneDelegate.swift in Sources */,
 			);
@@ -472,7 +491,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.developer.adrianoramos.Realize-hackathon";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dev.rangel.oneAm;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -491,7 +510,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.developer.adrianoramos.Realize-hackathon";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dev.rangel.oneAm;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
