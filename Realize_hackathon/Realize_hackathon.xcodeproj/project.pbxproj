@@ -8,14 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		5956CC67B928AFB341024BF5 /* Pods_Realize_hackathon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E48649113AD9D49964523727 /* Pods_Realize_hackathon.framework */; };
+		770F2F282349E98A0077F493 /* SingInCpfStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 770F2F272349E98A0077F493 /* SingInCpfStoryboard.storyboard */; };
+		770F2F2A2349E9A00077F493 /* SingInCpfViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 770F2F292349E9A00077F493 /* SingInCpfViewController.swift */; };
 		77A0A6762349CCDE00291659 /* cardSelection.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 77A0A6752349CCDE00291659 /* cardSelection.storyboard */; };
 		77A0A67A2349CD6300291659 /* cardSelectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77A0A6792349CD6300291659 /* cardSelectionViewController.swift */; };
 		811D53B82349EA1000C17E02 /* IDValidation.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 811D53B72349EA1000C17E02 /* IDValidation.storyboard */; };
 		811D53BA2349EA2E00C17E02 /* IDValidationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 811D53B92349EA2E00C17E02 /* IDValidationViewController.swift */; };
 		811D53BD2349EAFE00C17E02 /* ContactViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 811D53BC2349EAFE00C17E02 /* ContactViewController.swift */; };
 		811D53BF2349EB0A00C17E02 /* ContactView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 811D53BE2349EB0A00C17E02 /* ContactView.storyboard */; };
-		811D53C22349EBCD00C17E02 /* EmailView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 811D53C12349EBCD00C17E02 /* EmailView.storyboard */; };
-		811D53C42349EBD900C17E02 /* EmailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 811D53C32349EBD900C17E02 /* EmailViewController.swift */; };
+		811D53CA2349F36700C17E02 /* EmailView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 811D53C82349F36700C17E02 /* EmailView.storyboard */; };
+		811D53CB2349F3DB00C17E02 /* EmailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 811D53C72349F36700C17E02 /* EmailViewController.swift */; };
 		812F01B12349A55A00E10135 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 812F01B02349A55A00E10135 /* AppDelegate.swift */; };
 		812F01B32349A55A00E10135 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 812F01B22349A55A00E10135 /* SceneDelegate.swift */; };
 		812F01BA2349A55E00E10135 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 812F01B92349A55E00E10135 /* Assets.xcassets */; };
@@ -44,6 +46,8 @@
 
 /* Begin PBXFileReference section */
 		6889023CEA55A5E3106D82E7 /* Pods-Realize_hackathon.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Realize_hackathon.release.xcconfig"; path = "Target Support Files/Pods-Realize_hackathon/Pods-Realize_hackathon.release.xcconfig"; sourceTree = "<group>"; };
+		770F2F272349E98A0077F493 /* SingInCpfStoryboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SingInCpfStoryboard.storyboard; sourceTree = "<group>"; };
+		770F2F292349E9A00077F493 /* SingInCpfViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingInCpfViewController.swift; sourceTree = "<group>"; };
 		77A0A6752349CCDE00291659 /* cardSelection.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = cardSelection.storyboard; sourceTree = "<group>"; };
 		77A0A6792349CD6300291659 /* cardSelectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cardSelectionViewController.swift; sourceTree = "<group>"; };
 		811D53B72349EA1000C17E02 /* IDValidation.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = IDValidation.storyboard; sourceTree = "<group>"; };
@@ -52,6 +56,8 @@
 		811D53BE2349EB0A00C17E02 /* ContactView.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ContactView.storyboard; sourceTree = "<group>"; };
 		811D53C12349EBCD00C17E02 /* EmailView.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = EmailView.storyboard; sourceTree = "<group>"; };
 		811D53C32349EBD900C17E02 /* EmailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmailViewController.swift; sourceTree = "<group>"; };
+		811D53C72349F36700C17E02 /* EmailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmailViewController.swift; sourceTree = "<group>"; };
+		811D53C82349F36700C17E02 /* EmailView.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = EmailView.storyboard; sourceTree = "<group>"; };
 		812F01AD2349A55A00E10135 /* Realize_hackathon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Realize_hackathon.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		812F01B02349A55A00E10135 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		812F01B22349A55A00E10135 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -111,6 +117,15 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		770F2F262349E93B0077F493 /* SingInCpf */ = {
+			isa = PBXGroup;
+			children = (
+				770F2F272349E98A0077F493 /* SingInCpfStoryboard.storyboard */,
+				770F2F292349E9A00077F493 /* SingInCpfViewController.swift */,
+			);
+			path = SingInCpf;
+			sourceTree = "<group>";
+		};
 		77A0A6742349CCC200291659 /* CardSelection */ = {
 			isa = PBXGroup;
 			children = (
@@ -138,11 +153,20 @@
 			path = Contact;
 			sourceTree = "<group>";
 		};
-		811D53C02349EBBC00C17E02 /* Email */ = {
+		811D53C52349F34000C17E02 /* Recovered References */ = {
 			isa = PBXGroup;
 			children = (
-				811D53C12349EBCD00C17E02 /* EmailView.storyboard */,
 				811D53C32349EBD900C17E02 /* EmailViewController.swift */,
+				811D53C12349EBCD00C17E02 /* EmailView.storyboard */,
+			);
+			name = "Recovered References";
+			sourceTree = "<group>";
+		};
+		811D53C62349F36700C17E02 /* Email */ = {
+			isa = PBXGroup;
+			children = (
+				811D53C72349F36700C17E02 /* EmailViewController.swift */,
+				811D53C82349F36700C17E02 /* EmailView.storyboard */,
 			);
 			path = Email;
 			sourceTree = "<group>";
@@ -154,6 +178,7 @@
 				812F01AE2349A55A00E10135 /* Products */,
 				270A11496F37ADD5677F8441 /* Pods */,
 				56211DF7EC5CD5E707B1F9EF /* Frameworks */,
+				811D53C52349F34000C17E02 /* Recovered References */,
 			);
 			sourceTree = "<group>";
 		};
@@ -191,7 +216,8 @@
 		812F01C62349A58A00E10135 /* App */ = {
 			isa = PBXGroup;
 			children = (
-				811D53C02349EBBC00C17E02 /* Email */,
+				811D53C62349F36700C17E02 /* Email */,
+				770F2F262349E93B0077F493 /* SingInCpf */,
 				817F5DED2349CE1800436BB0 /* SignIn */,
 				811D53BB2349EAEF00C17E02 /* Contact */,
 				812F01C82349A5B300E10135 /* Login */,
@@ -315,6 +341,7 @@
 				817F5E092349D8AD00436BB0 /* Boston-ThinIt.otf in Resources */,
 				812F01CE2349A61300E10135 /* Login.storyboard in Resources */,
 				817F5E132349D8AD00436BB0 /* Boston-Regular.otf in Resources */,
+				811D53CA2349F36700C17E02 /* EmailView.storyboard in Resources */,
 				817F5E0B2349D8AD00436BB0 /* Boston-Black.otf in Resources */,
 				817F5E112349D8AD00436BB0 /* Boston-LightIt.otf in Resources */,
 				817F5E082349D8AD00436BB0 /* Boston-Bold.otf in Resources */,
@@ -324,6 +351,7 @@
 				812F01BA2349A55E00E10135 /* Assets.xcassets in Resources */,
 				817F5E0D2349D8AD00436BB0 /* Boston-ExtraLightIt.otf in Resources */,
 				817F5E0A2349D8AD00436BB0 /* Boston-BoldIt.otf in Resources */,
+				770F2F282349E98A0077F493 /* SingInCpfStoryboard.storyboard in Resources */,
 				817F5E052349D8AD00436BB0 /* Boston-HeavyIt.otf in Resources */,
 				817F5E0F2349D8AD00436BB0 /* Boston-RegularIt.otf in Resources */,
 				811D53BF2349EB0A00C17E02 /* ContactView.storyboard in Resources */,
@@ -331,7 +359,6 @@
 				817F5DF32349CE5000436BB0 /* SignInStoryboard.storyboard in Resources */,
 				817F5E0C2349D8AD00436BB0 /* Boston-Thin.otf in Resources */,
 				811D53B82349EA1000C17E02 /* IDValidation.storyboard in Resources */,
-				811D53C22349EBCD00C17E02 /* EmailView.storyboard in Resources */,
 				77A0A6762349CCDE00291659 /* cardSelection.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -385,10 +412,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				811D53CB2349F3DB00C17E02 /* EmailViewController.swift in Sources */,
 				817F5DEF2349CE3200436BB0 /* SignInViewController.swift in Sources */,
 				811D53BD2349EAFE00C17E02 /* ContactViewController.swift in Sources */,
 				812F01CC2349A5FA00E10135 /* LoginViewController.swift in Sources */,
-				811D53C42349EBD900C17E02 /* EmailViewController.swift in Sources */,
+				770F2F2A2349E9A00077F493 /* SingInCpfViewController.swift in Sources */,
 				77A0A67A2349CD6300291659 /* cardSelectionViewController.swift in Sources */,
 				812F01B12349A55A00E10135 /* AppDelegate.swift in Sources */,
 				811D53BA2349EA2E00C17E02 /* IDValidationViewController.swift in Sources */,
