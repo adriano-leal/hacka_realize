@@ -23,7 +23,6 @@ class LoginViewController: UIViewController, UITextFieldDelegate {
         super.viewDidLoad()
         
         self.view.backgroundColor = .black
-//        self.hideKeyboard()
         cpfField.delegate = self
 
         lblCpf.isHidden = false
@@ -68,7 +67,6 @@ class LoginViewController: UIViewController, UITextFieldDelegate {
 
 
 extension UITextField {
-    
     func setCPFIcon(_ image: UIImage) {
         let cpfIcon = UIImageView(frame: CGRect(x: 10, y: 5, width: 23, height: 23))
         cpfIcon.image = image
@@ -78,7 +76,6 @@ extension UITextField {
         leftView = cpfViewContainer
         leftViewMode = .always
     }
-    
 }
 
 

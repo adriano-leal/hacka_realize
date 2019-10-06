@@ -14,6 +14,24 @@
 		812F01BD2349A55E00E10135 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 812F01BB2349A55E00E10135 /* LaunchScreen.storyboard */; };
 		812F01CC2349A5FA00E10135 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 812F01CB2349A5FA00E10135 /* LoginViewController.swift */; };
 		812F01CE2349A61300E10135 /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 812F01CD2349A61300E10135 /* Login.storyboard */; };
+		817F5DEF2349CE3200436BB0 /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 817F5DEE2349CE3200436BB0 /* SignInViewController.swift */; };
+		817F5DF32349CE5000436BB0 /* SignInStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 817F5DF22349CE5000436BB0 /* SignInStoryboard.storyboard */; };
+		817F5E052349D8AD00436BB0 /* Boston-HeavyIt.otf in Resources */ = {isa = PBXBuildFile; fileRef = 817F5DF52349D8AD00436BB0 /* Boston-HeavyIt.otf */; };
+		817F5E062349D8AD00436BB0 /* Boston-ExtraLight.otf in Resources */ = {isa = PBXBuildFile; fileRef = 817F5DF62349D8AD00436BB0 /* Boston-ExtraLight.otf */; };
+		817F5E072349D8AD00436BB0 /* Boston-SemiBold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 817F5DF72349D8AD00436BB0 /* Boston-SemiBold.otf */; };
+		817F5E082349D8AD00436BB0 /* Boston-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 817F5DF82349D8AD00436BB0 /* Boston-Bold.otf */; };
+		817F5E092349D8AD00436BB0 /* Boston-ThinIt.otf in Resources */ = {isa = PBXBuildFile; fileRef = 817F5DF92349D8AD00436BB0 /* Boston-ThinIt.otf */; };
+		817F5E0A2349D8AD00436BB0 /* Boston-BoldIt.otf in Resources */ = {isa = PBXBuildFile; fileRef = 817F5DFA2349D8AD00436BB0 /* Boston-BoldIt.otf */; };
+		817F5E0B2349D8AD00436BB0 /* Boston-Black.otf in Resources */ = {isa = PBXBuildFile; fileRef = 817F5DFB2349D8AD00436BB0 /* Boston-Black.otf */; };
+		817F5E0C2349D8AD00436BB0 /* Boston-Thin.otf in Resources */ = {isa = PBXBuildFile; fileRef = 817F5DFC2349D8AD00436BB0 /* Boston-Thin.otf */; };
+		817F5E0D2349D8AD00436BB0 /* Boston-ExtraLightIt.otf in Resources */ = {isa = PBXBuildFile; fileRef = 817F5DFD2349D8AD00436BB0 /* Boston-ExtraLightIt.otf */; };
+		817F5E0E2349D8AD00436BB0 /* Boston-SemiBoldIt.otf in Resources */ = {isa = PBXBuildFile; fileRef = 817F5DFE2349D8AD00436BB0 /* Boston-SemiBoldIt.otf */; };
+		817F5E0F2349D8AD00436BB0 /* Boston-RegularIt.otf in Resources */ = {isa = PBXBuildFile; fileRef = 817F5DFF2349D8AD00436BB0 /* Boston-RegularIt.otf */; };
+		817F5E102349D8AD00436BB0 /* Boston-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = 817F5E002349D8AD00436BB0 /* Boston-Light.otf */; };
+		817F5E112349D8AD00436BB0 /* Boston-LightIt.otf in Resources */ = {isa = PBXBuildFile; fileRef = 817F5E012349D8AD00436BB0 /* Boston-LightIt.otf */; };
+		817F5E122349D8AD00436BB0 /* Boston-Heavy.otf in Resources */ = {isa = PBXBuildFile; fileRef = 817F5E022349D8AD00436BB0 /* Boston-Heavy.otf */; };
+		817F5E132349D8AD00436BB0 /* Boston-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 817F5E032349D8AD00436BB0 /* Boston-Regular.otf */; };
+		817F5E142349D8AD00436BB0 /* Boston-BlackIt.otf in Resources */ = {isa = PBXBuildFile; fileRef = 817F5E042349D8AD00436BB0 /* Boston-BlackIt.otf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +44,24 @@
 		812F01BE2349A55E00E10135 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		812F01CB2349A5FA00E10135 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		812F01CD2349A61300E10135 /* Login.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Login.storyboard; sourceTree = "<group>"; };
+		817F5DEE2349CE3200436BB0 /* SignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
+		817F5DF22349CE5000436BB0 /* SignInStoryboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SignInStoryboard.storyboard; sourceTree = "<group>"; };
+		817F5DF52349D8AD00436BB0 /* Boston-HeavyIt.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Boston-HeavyIt.otf"; sourceTree = "<group>"; };
+		817F5DF62349D8AD00436BB0 /* Boston-ExtraLight.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Boston-ExtraLight.otf"; sourceTree = "<group>"; };
+		817F5DF72349D8AD00436BB0 /* Boston-SemiBold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Boston-SemiBold.otf"; sourceTree = "<group>"; };
+		817F5DF82349D8AD00436BB0 /* Boston-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Boston-Bold.otf"; sourceTree = "<group>"; };
+		817F5DF92349D8AD00436BB0 /* Boston-ThinIt.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Boston-ThinIt.otf"; sourceTree = "<group>"; };
+		817F5DFA2349D8AD00436BB0 /* Boston-BoldIt.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Boston-BoldIt.otf"; sourceTree = "<group>"; };
+		817F5DFB2349D8AD00436BB0 /* Boston-Black.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Boston-Black.otf"; sourceTree = "<group>"; };
+		817F5DFC2349D8AD00436BB0 /* Boston-Thin.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Boston-Thin.otf"; sourceTree = "<group>"; };
+		817F5DFD2349D8AD00436BB0 /* Boston-ExtraLightIt.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Boston-ExtraLightIt.otf"; sourceTree = "<group>"; };
+		817F5DFE2349D8AD00436BB0 /* Boston-SemiBoldIt.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Boston-SemiBoldIt.otf"; sourceTree = "<group>"; };
+		817F5DFF2349D8AD00436BB0 /* Boston-RegularIt.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Boston-RegularIt.otf"; sourceTree = "<group>"; };
+		817F5E002349D8AD00436BB0 /* Boston-Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Boston-Light.otf"; sourceTree = "<group>"; };
+		817F5E012349D8AD00436BB0 /* Boston-LightIt.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Boston-LightIt.otf"; sourceTree = "<group>"; };
+		817F5E022349D8AD00436BB0 /* Boston-Heavy.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Boston-Heavy.otf"; sourceTree = "<group>"; };
+		817F5E032349D8AD00436BB0 /* Boston-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Boston-Regular.otf"; sourceTree = "<group>"; };
+		817F5E042349D8AD00436BB0 /* Boston-BlackIt.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Boston-BlackIt.otf"; sourceTree = "<group>"; };
 		951655032234D2A30657C09A /* Pods-Realize_hackathon.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Realize_hackathon.debug.xcconfig"; path = "Target Support Files/Pods-Realize_hackathon/Pods-Realize_hackathon.debug.xcconfig"; sourceTree = "<group>"; };
 		E48649113AD9D49964523727 /* Pods_Realize_hackathon.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Realize_hackathon.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -92,6 +128,7 @@
 		812F01C42349A57700E10135 /* Support */ = {
 			isa = PBXGroup;
 			children = (
+				817F5DF42349D8AC00436BB0 /* Boston-Family */,
 				812F01B02349A55A00E10135 /* AppDelegate.swift */,
 				812F01B22349A55A00E10135 /* SceneDelegate.swift */,
 				812F01B92349A55E00E10135 /* Assets.xcassets */,
@@ -103,6 +140,7 @@
 			isa = PBXGroup;
 			children = (
 				812F01C82349A5B300E10135 /* Login */,
+				817F5DED2349CE1800436BB0 /* SignIn */,
 			);
 			path = App;
 			sourceTree = "<group>";
@@ -121,6 +159,38 @@
 				812F01CD2349A61300E10135 /* Login.storyboard */,
 			);
 			path = Login;
+			sourceTree = "<group>";
+		};
+		817F5DED2349CE1800436BB0 /* SignIn */ = {
+			isa = PBXGroup;
+			children = (
+				817F5DEE2349CE3200436BB0 /* SignInViewController.swift */,
+				817F5DF22349CE5000436BB0 /* SignInStoryboard.storyboard */,
+			);
+			path = SignIn;
+			sourceTree = "<group>";
+		};
+		817F5DF42349D8AC00436BB0 /* Boston-Family */ = {
+			isa = PBXGroup;
+			children = (
+				817F5DF52349D8AD00436BB0 /* Boston-HeavyIt.otf */,
+				817F5DF62349D8AD00436BB0 /* Boston-ExtraLight.otf */,
+				817F5DF72349D8AD00436BB0 /* Boston-SemiBold.otf */,
+				817F5DF82349D8AD00436BB0 /* Boston-Bold.otf */,
+				817F5DF92349D8AD00436BB0 /* Boston-ThinIt.otf */,
+				817F5DFA2349D8AD00436BB0 /* Boston-BoldIt.otf */,
+				817F5DFB2349D8AD00436BB0 /* Boston-Black.otf */,
+				817F5DFC2349D8AD00436BB0 /* Boston-Thin.otf */,
+				817F5DFD2349D8AD00436BB0 /* Boston-ExtraLightIt.otf */,
+				817F5DFE2349D8AD00436BB0 /* Boston-SemiBoldIt.otf */,
+				817F5DFF2349D8AD00436BB0 /* Boston-RegularIt.otf */,
+				817F5E002349D8AD00436BB0 /* Boston-Light.otf */,
+				817F5E012349D8AD00436BB0 /* Boston-LightIt.otf */,
+				817F5E022349D8AD00436BB0 /* Boston-Heavy.otf */,
+				817F5E032349D8AD00436BB0 /* Boston-Regular.otf */,
+				817F5E042349D8AD00436BB0 /* Boston-BlackIt.otf */,
+			);
+			path = "Boston-Family";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -183,9 +253,26 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				817F5E0E2349D8AD00436BB0 /* Boston-SemiBoldIt.otf in Resources */,
+				817F5E102349D8AD00436BB0 /* Boston-Light.otf in Resources */,
+				817F5E122349D8AD00436BB0 /* Boston-Heavy.otf in Resources */,
+				817F5E092349D8AD00436BB0 /* Boston-ThinIt.otf in Resources */,
 				812F01CE2349A61300E10135 /* Login.storyboard in Resources */,
+				817F5E132349D8AD00436BB0 /* Boston-Regular.otf in Resources */,
+				817F5E0B2349D8AD00436BB0 /* Boston-Black.otf in Resources */,
+				817F5E112349D8AD00436BB0 /* Boston-LightIt.otf in Resources */,
+				817F5E082349D8AD00436BB0 /* Boston-Bold.otf in Resources */,
+				817F5E142349D8AD00436BB0 /* Boston-BlackIt.otf in Resources */,
+				817F5E072349D8AD00436BB0 /* Boston-SemiBold.otf in Resources */,
 				812F01BD2349A55E00E10135 /* LaunchScreen.storyboard in Resources */,
 				812F01BA2349A55E00E10135 /* Assets.xcassets in Resources */,
+				817F5E0D2349D8AD00436BB0 /* Boston-ExtraLightIt.otf in Resources */,
+				817F5E0A2349D8AD00436BB0 /* Boston-BoldIt.otf in Resources */,
+				817F5E052349D8AD00436BB0 /* Boston-HeavyIt.otf in Resources */,
+				817F5E0F2349D8AD00436BB0 /* Boston-RegularIt.otf in Resources */,
+				817F5E062349D8AD00436BB0 /* Boston-ExtraLight.otf in Resources */,
+				817F5DF32349CE5000436BB0 /* SignInStoryboard.storyboard in Resources */,
+				817F5E0C2349D8AD00436BB0 /* Boston-Thin.otf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -238,6 +325,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				817F5DEF2349CE3200436BB0 /* SignInViewController.swift in Sources */,
 				812F01CC2349A5FA00E10135 /* LoginViewController.swift in Sources */,
 				812F01B12349A55A00E10135 /* AppDelegate.swift in Sources */,
 				812F01B32349A55A00E10135 /* SceneDelegate.swift in Sources */,
