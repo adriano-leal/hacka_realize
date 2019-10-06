@@ -10,7 +10,7 @@
         <!--Finish Card View Controller-->
         <scene sceneID="nsW-Zh-stQ">
             <objects>
-                <viewController storyboardIdentifier="finishCard" useStoryboardIdentifierAsRestorationIdentifier="YES" id="F52-A9-Egf" customClass="FinishCardViewController" customModule="Realize_hackathon" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="finishCard" useStoryboardIdentifierAsRestorationIdentifier="YES" id="F52-A9-Egf" customClass="FinishCardViewController" customModule="Realize" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="ASy-pZ-azp">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>

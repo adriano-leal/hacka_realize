@@ -42,10 +42,12 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ND6-8u-8zT">
-                                <rect key="frame" x="-8" y="709" width="422" height="90"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ND6-8u-8zT">
+                                <rect key="frame" x="0.0" y="806" width="414" height="90"/>
                                 <color key="backgroundColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="90" id="PGk-Rt-LIM"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" name="Boston-Bold" family="Boston" pointSize="24"/>
                                 <state key="normal" title="Confirmar">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -57,6 +59,11 @@
                             </button>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="ND6-8u-8zT" secondAttribute="trailing" id="ARV-Xa-g1l"/>
+                            <constraint firstAttribute="bottom" secondItem="ND6-8u-8zT" secondAttribute="bottom" id="KZ2-q1-IvX"/>
+                            <constraint firstItem="ND6-8u-8zT" firstAttribute="leading" secondItem="2Vo-6J-E3z" secondAttribute="leading" id="XvT-kX-wzp"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="2Vo-6J-E3z"/>
                     </view>
                     <connections>

@@ -30,6 +30,6 @@ class ContactViewController: UIViewController {
     }
     
     @objc func keyboardWillChange(notification: NotificationCenter) {
-        self.labelsView.frame.size.height = -100
+        self.labelsView.frame.size.height = -70
     }
 }

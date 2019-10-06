@@ -24,8 +24,6 @@
 		812F01BD2349A55E00E10135 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 812F01BB2349A55E00E10135 /* LaunchScreen.storyboard */; };
 		812F01CC2349A5FA00E10135 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 812F01CB2349A5FA00E10135 /* LoginViewController.swift */; };
 		812F01CE2349A61300E10135 /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 812F01CD2349A61300E10135 /* Login.storyboard */; };
-		817F5DEF2349CE3200436BB0 /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 817F5DEE2349CE3200436BB0 /* SignInViewController.swift */; };
-		817F5DF32349CE5000436BB0 /* SignInStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 817F5DF22349CE5000436BB0 /* SignInStoryboard.storyboard */; };
 		817F5E052349D8AD00436BB0 /* Boston-HeavyIt.otf in Resources */ = {isa = PBXBuildFile; fileRef = 817F5DF52349D8AD00436BB0 /* Boston-HeavyIt.otf */; };
 		817F5E062349D8AD00436BB0 /* Boston-ExtraLight.otf in Resources */ = {isa = PBXBuildFile; fileRef = 817F5DF62349D8AD00436BB0 /* Boston-ExtraLight.otf */; };
 		817F5E072349D8AD00436BB0 /* Boston-SemiBold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 817F5DF72349D8AD00436BB0 /* Boston-SemiBold.otf */; };
@@ -44,6 +42,8 @@
 		817F5E142349D8AD00436BB0 /* Boston-BlackIt.otf in Resources */ = {isa = PBXBuildFile; fileRef = 817F5E042349D8AD00436BB0 /* Boston-BlackIt.otf */; };
 		81D35C4E234A3F8E0043F9DF /* CpfInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81D35C4D234A3F8E0043F9DF /* CpfInput.swift */; };
 		81D35C50234A3FA10043F9DF /* CpfView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81D35C4F234A3FA10043F9DF /* CpfView.storyboard */; };
+		81D35C59234A52D80043F9DF /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81D35C57234A52D80043F9DF /* SignInViewController.swift */; };
+		81D35C5A234A52D80043F9DF /* SignInStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81D35C58234A52D80043F9DF /* SignInStoryboard.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -68,8 +68,6 @@
 		812F01BE2349A55E00E10135 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		812F01CB2349A5FA00E10135 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		812F01CD2349A61300E10135 /* Login.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Login.storyboard; sourceTree = "<group>"; };
-		817F5DEE2349CE3200436BB0 /* SignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
-		817F5DF22349CE5000436BB0 /* SignInStoryboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SignInStoryboard.storyboard; sourceTree = "<group>"; };
 		817F5DF52349D8AD00436BB0 /* Boston-HeavyIt.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Boston-HeavyIt.otf"; sourceTree = "<group>"; };
 		817F5DF62349D8AD00436BB0 /* Boston-ExtraLight.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Boston-ExtraLight.otf"; sourceTree = "<group>"; };
 		817F5DF72349D8AD00436BB0 /* Boston-SemiBold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Boston-SemiBold.otf"; sourceTree = "<group>"; };
@@ -88,6 +86,8 @@
 		817F5E042349D8AD00436BB0 /* Boston-BlackIt.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Boston-BlackIt.otf"; sourceTree = "<group>"; };
 		81D35C4D234A3F8E0043F9DF /* CpfInput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CpfInput.swift; sourceTree = "<group>"; };
 		81D35C4F234A3FA10043F9DF /* CpfView.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = CpfView.storyboard; sourceTree = "<group>"; };
+		81D35C57234A52D80043F9DF /* SignInViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
+		81D35C58234A52D80043F9DF /* SignInStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = SignInStoryboard.storyboard; sourceTree = "<group>"; };
 		951655032234D2A30657C09A /* Pods-Realize_hackathon.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Realize_hackathon.debug.xcconfig"; path = "Target Support Files/Pods-Realize_hackathon/Pods-Realize_hackathon.debug.xcconfig"; sourceTree = "<group>"; };
 		E48649113AD9D49964523727 /* Pods_Realize_hackathon.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Realize_hackathon.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -251,8 +251,8 @@
 		817F5DED2349CE1800436BB0 /* SignIn */ = {
 			isa = PBXGroup;
 			children = (
-				817F5DEE2349CE3200436BB0 /* SignInViewController.swift */,
-				817F5DF22349CE5000436BB0 /* SignInStoryboard.storyboard */,
+				81D35C58234A52D80043F9DF /* SignInStoryboard.storyboard */,
+				81D35C57234A52D80043F9DF /* SignInViewController.swift */,
 			);
 			path = SignIn;
 			sourceTree = "<group>";
@@ -362,6 +362,7 @@
 				817F5E112349D8AD00436BB0 /* Boston-LightIt.otf in Resources */,
 				77AD3CFC234A195300AB1F01 /* IdentityStoryboard.storyboard in Resources */,
 				817F5E082349D8AD00436BB0 /* Boston-Bold.otf in Resources */,
+				81D35C5A234A52D80043F9DF /* SignInStoryboard.storyboard in Resources */,
 				817F5E142349D8AD00436BB0 /* Boston-BlackIt.otf in Resources */,
 				817F5E072349D8AD00436BB0 /* Boston-SemiBold.otf in Resources */,
 				812F01BD2349A55E00E10135 /* LaunchScreen.storyboard in Resources */,
@@ -372,7 +373,6 @@
 				817F5E0F2349D8AD00436BB0 /* Boston-RegularIt.otf in Resources */,
 				811D53BF2349EB0A00C17E02 /* ContactView.storyboard in Resources */,
 				817F5E062349D8AD00436BB0 /* Boston-ExtraLight.otf in Resources */,
-				817F5DF32349CE5000436BB0 /* SignInStoryboard.storyboard in Resources */,
 				817F5E0C2349D8AD00436BB0 /* Boston-Thin.otf in Resources */,
 				77A0A6762349CCDE00291659 /* cardSelection.storyboard in Resources */,
 			);
@@ -430,12 +430,12 @@
 				77AD3CFE234A196D00AB1F01 /* IdentityViewController.swift in Sources */,
 				811D53CB2349F3DB00C17E02 /* EmailViewController.swift in Sources */,
 				81D35C4E234A3F8E0043F9DF /* CpfInput.swift in Sources */,
-				817F5DEF2349CE3200436BB0 /* SignInViewController.swift in Sources */,
 				811D53BD2349EAFE00C17E02 /* ContactViewController.swift in Sources */,
 				812F01CC2349A5FA00E10135 /* LoginViewController.swift in Sources */,
 				77A0A67A2349CD6300291659 /* cardSelectionViewController.swift in Sources */,
 				77AD3D03234A1D8D00AB1F01 /* FinishCardViewController.swift in Sources */,
 				812F01B12349A55A00E10135 /* AppDelegate.swift in Sources */,
+				81D35C59234A52D80043F9DF /* SignInViewController.swift in Sources */,
 				812F01B32349A55A00E10135 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

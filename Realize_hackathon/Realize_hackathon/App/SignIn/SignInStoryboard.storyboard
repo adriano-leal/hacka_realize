@@ -18,7 +18,7 @@
         <!--Sign In View Controller-->
         <scene sceneID="3nk-Ou-XW4">
             <objects>
-                <viewController storyboardIdentifier="SignIn" id="8ov-tO-4v8" customClass="SignInViewController" customModule="Realize_hackathon" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="SignIn" modalPresentationStyle="fullScreen" id="8ov-tO-4v8" customClass="SignInViewController" customModule="Realize" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="YgL-eF-x4d">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -37,9 +37,8 @@
                                 <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="cLq-TR-5Vp">
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="cLq-TR-5Vp">
                                 <rect key="frame" x="0.0" y="301" width="414" height="221"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Qual o seu nome completo?" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kcS-5G-bI7">
                                         <rect key="frame" x="20" y="-9" width="374" height="35"/>
@@ -56,28 +55,43 @@
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits"/>
                                     </textField>
-                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="W02-Oo-2W5">
-                                        <rect key="frame" x="0.0" y="163" width="415" height="58"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                        <fontDescription key="fontDescription" name="Boston-Bold" family="Boston" pointSize="17"/>
-                                        <state key="normal" title="Confirmar">
-                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                        </state>
-                                        <connections>
-                                            <segue destination="qiL-DS-zdv" kind="show" id="QA0-Bp-hoJ"/>
-                                        </connections>
-                                    </button>
                                 </subviews>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="221" id="8WO-j2-7u9"/>
+                                </constraints>
                             </view>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="W02-Oo-2W5">
+                                <rect key="frame" x="0.0" y="464" width="414" height="58"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="58" id="siw-sU-VXR"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Boston-Bold" family="Boston" pointSize="17"/>
+                                <state key="normal" title="Confirmar">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="confirmAction:" destination="8ov-tO-4v8" eventType="touchUpInside" id="J2S-pb-YQl"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="W02-Oo-2W5" firstAttribute="trailing" secondItem="cLq-TR-5Vp" secondAttribute="trailing" id="8yC-rY-PHZ"/>
+                            <constraint firstItem="W02-Oo-2W5" firstAttribute="leading" secondItem="cLq-TR-5Vp" secondAttribute="leading" id="XzA-Kn-ajd"/>
+                            <constraint firstItem="cLq-TR-5Vp" firstAttribute="top" secondItem="rUL-gO-85T" secondAttribute="top" constant="257" id="mKX-cn-X6J"/>
+                            <constraint firstItem="W02-Oo-2W5" firstAttribute="bottom" secondItem="cLq-TR-5Vp" secondAttribute="bottom" id="t3E-mC-rOK"/>
+                            <constraint firstItem="rUL-gO-85T" firstAttribute="trailing" secondItem="cLq-TR-5Vp" secondAttribute="trailing" id="vdc-O9-igu"/>
+                            <constraint firstItem="cLq-TR-5Vp" firstAttribute="leading" secondItem="rUL-gO-85T" secondAttribute="leading" id="y3N-cB-EWj"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="rUL-gO-85T"/>
                     </view>
                     <connections>
                         <outlet property="labelsView" destination="cLq-TR-5Vp" id="W4L-E1-syo"/>
                         <outlet property="nameLabel" destination="qfZ-kK-dwh" id="QCX-s1-hRF"/>
+                        <outlet property="topConstraint" destination="mKX-cn-X6J" id="06S-1X-een"/>
+                        <segue destination="qiL-DS-zdv" kind="presentation" identifier="vaiAdriano" id="Dlw-lz-TQP"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="DUJ-nk-xfG" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>

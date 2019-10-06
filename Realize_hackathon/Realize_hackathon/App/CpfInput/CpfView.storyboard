@@ -20,9 +20,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="9pn-5n-8WV">
-                                <rect key="frame" x="0.0" y="323" width="414" height="221"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="9pn-5n-8WV">
+                                <rect key="frame" x="0.0" y="249" width="414" height="171"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Qual o seu CPF?" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pPw-R1-tZ7">
                                         <rect key="frame" x="8" y="35" width="398" height="32"/>
@@ -39,23 +38,33 @@
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits"/>
                                     </textField>
-                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="N12-4X-9Eq">
-                                        <rect key="frame" x="0.0" y="168" width="414" height="44"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                        <fontDescription key="fontDescription" name="Boston-Bold" family="Boston" pointSize="24"/>
-                                        <state key="normal" title="Confirmar">
-                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                        </state>
-                                        <connections>
-                                            <segue destination="GGY-V4-Mfq" kind="show" id="hlT-l6-O6a"/>
-                                        </connections>
-                                    </button>
                                 </subviews>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="171" id="Igl-Q9-1vZ"/>
+                                </constraints>
                             </view>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="N12-4X-9Eq">
+                                <rect key="frame" x="0.0" y="478" width="414" height="44"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" name="Boston-Bold" family="Boston" pointSize="24"/>
+                                <state key="normal" title="Confirmar">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <segue destination="GGY-V4-Mfq" kind="show" id="hlT-l6-O6a"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="9pn-5n-8WV" firstAttribute="trailing" secondItem="I54-z2-mWm" secondAttribute="trailing" id="0fR-gq-wZR"/>
+                            <constraint firstItem="N12-4X-9Eq" firstAttribute="top" secondItem="9pn-5n-8WV" secondAttribute="bottom" constant="58" id="24q-0S-RHV"/>
+                            <constraint firstItem="9pn-5n-8WV" firstAttribute="top" secondItem="I54-z2-mWm" secondAttribute="top" constant="205" id="2VC-jw-rq7"/>
+                            <constraint firstItem="9pn-5n-8WV" firstAttribute="leading" secondItem="N12-4X-9Eq" secondAttribute="leading" id="FKW-pT-s2c"/>
+                            <constraint firstItem="9pn-5n-8WV" firstAttribute="trailing" secondItem="N12-4X-9Eq" secondAttribute="trailing" id="q8P-7b-qNf"/>
+                            <constraint firstItem="9pn-5n-8WV" firstAttribute="leading" secondItem="I54-z2-mWm" secondAttribute="leading" id="qIt-Sc-WNj"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="I54-z2-mWm"/>
                     </view>
                     <connections>

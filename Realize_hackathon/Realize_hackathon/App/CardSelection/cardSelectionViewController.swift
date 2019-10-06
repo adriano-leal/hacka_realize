@@ -26,5 +26,4 @@ class cardSelectionViewController: UIViewController {
     override func viewWillAppear(_ animated: Bool) {
         self.navigationItem.rightBarButtonItem = UIBarButtonItem(title: "Ajuda", style: .done, target: self, action: nil)
     }
-
 }

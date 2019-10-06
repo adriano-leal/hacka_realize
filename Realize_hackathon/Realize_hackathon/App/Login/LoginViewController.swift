@@ -24,6 +24,8 @@ class LoginViewController: UIViewController, UITextFieldDelegate {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        
+        
         self.view.backgroundColor = .black
         cpfField.delegate = self
 
@@ -44,11 +46,11 @@ class LoginViewController: UIViewController, UITextFieldDelegate {
 //        cpfField.addTarget(self, action: #selector(hideCpf), for: .editingDidBegin)
     }
     
-    deinit {
-        NotificationCenter.default.removeObserver(self, name: UIResponder.keyboardWillShowNotification, object: nil)
-        NotificationCenter.default.removeObserver(self, name: UIResponder.keyboardWillHideNotification, object: nil)
-        NotificationCenter.default.removeObserver(self, name: UIResponder.keyboardWillChangeFrameNotification, object: nil)
-    }
+        deinit {
+            NotificationCenter.default.removeObserver(self, name: UIResponder.keyboardWillShowNotification, object: nil)
+            NotificationCenter.default.removeObserver(self, name: UIResponder.keyboardWillHideNotification, object: nil)
+            NotificationCenter.default.removeObserver(self, name: UIResponder.keyboardWillChangeFrameNotification, object: nil)
+        }
     
 //    override func viewWillAppear(_ animated: Bool) {
 //        self.navigationController?.isNavigationBarHidden = false

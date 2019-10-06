@@ -13,6 +13,9 @@ class SignInViewController: UIViewController {
     @IBOutlet weak var nameLabel: UITextField!
     @IBOutlet weak var labelsView: UIView!
     
+    @IBOutlet weak var topConstraint: NSLayoutConstraint!
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -31,8 +34,15 @@ class SignInViewController: UIViewController {
         NotificationCenter.default.removeObserver(self, name: UIResponder.keyboardWillChangeFrameNotification, object: nil)
     }
     
+    @IBAction func confirmAction(_ sender: UIButton) {
+        performSegue(withIdentifier: "vaiAdriano", sender: nil)
+    }
+    
     @objc func keyboardWillChange(notification: NotificationCenter) {
-        self.labelsView.frame.size.height = -60
+        self.topConstraint.constant -= 60
+        UIView.animate(withDuration: 0.5) {
+            self.view.layoutIfNeeded()
+        }
     }
     
 //    func textFieldShouldReturn() -> Bool {
