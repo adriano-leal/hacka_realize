@@ -7,5 +7,6 @@ target 'Realize_hackathon' do
 
   # Pods for Realize_hackathon
     pod 'TextFieldEffects'
+    pod 'lottie-ios'
 
 end

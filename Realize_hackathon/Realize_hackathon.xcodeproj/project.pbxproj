@@ -44,6 +44,11 @@
 		81D35C50234A3FA10043F9DF /* CpfView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81D35C4F234A3FA10043F9DF /* CpfView.storyboard */; };
 		81D35C59234A52D80043F9DF /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81D35C57234A52D80043F9DF /* SignInViewController.swift */; };
 		81D35C5A234A52D80043F9DF /* SignInStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81D35C58234A52D80043F9DF /* SignInStoryboard.storyboard */; };
+		81D35C5C234A60AB0043F9DF /* 257-favorie.json in Resources */ = {isa = PBXBuildFile; fileRef = 81D35C5B234A60AB0043F9DF /* 257-favorie.json */; };
+		81D35C62234A64A60043F9DF /* Slide.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81D35C5E234A64A60043F9DF /* Slide.swift */; };
+		81D35C63234A64A60043F9DF /* scrollViewStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81D35C5F234A64A60043F9DF /* scrollViewStoryboard.storyboard */; };
+		81D35C64234A64A60043F9DF /* Slide.xib in Resources */ = {isa = PBXBuildFile; fileRef = 81D35C60234A64A60043F9DF /* Slide.xib */; };
+		81D35C65234A64A60043F9DF /* scrollViewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81D35C61234A64A60043F9DF /* scrollViewViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -88,6 +93,11 @@
 		81D35C4F234A3FA10043F9DF /* CpfView.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = CpfView.storyboard; sourceTree = "<group>"; };
 		81D35C57234A52D80043F9DF /* SignInViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
 		81D35C58234A52D80043F9DF /* SignInStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = SignInStoryboard.storyboard; sourceTree = "<group>"; };
+		81D35C5B234A60AB0043F9DF /* 257-favorie.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "257-favorie.json"; sourceTree = "<group>"; };
+		81D35C5E234A64A60043F9DF /* Slide.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Slide.swift; sourceTree = "<group>"; };
+		81D35C5F234A64A60043F9DF /* scrollViewStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = scrollViewStoryboard.storyboard; sourceTree = "<group>"; };
+		81D35C60234A64A60043F9DF /* Slide.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Slide.xib; sourceTree = "<group>"; };
+		81D35C61234A64A60043F9DF /* scrollViewViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = scrollViewViewController.swift; sourceTree = "<group>"; };
 		951655032234D2A30657C09A /* Pods-Realize_hackathon.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Realize_hackathon.debug.xcconfig"; path = "Target Support Files/Pods-Realize_hackathon/Pods-Realize_hackathon.debug.xcconfig"; sourceTree = "<group>"; };
 		E48649113AD9D49964523727 /* Pods_Realize_hackathon.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Realize_hackathon.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -209,6 +219,7 @@
 		812F01C42349A57700E10135 /* Support */ = {
 			isa = PBXGroup;
 			children = (
+				81D35C5B234A60AB0043F9DF /* 257-favorie.json */,
 				817F5DF42349D8AC00436BB0 /* Boston-Family */,
 				812F01B02349A55A00E10135 /* AppDelegate.swift */,
 				812F01B22349A55A00E10135 /* SceneDelegate.swift */,
@@ -220,6 +231,7 @@
 		812F01C62349A58A00E10135 /* App */ = {
 			isa = PBXGroup;
 			children = (
+				81D35C5D234A640C0043F9DF /* Onboarding */,
 				81D35C4C234A3F700043F9DF /* CpfInput */,
 				812F01C82349A5B300E10135 /* Login */,
 				77A0A6742349CCC200291659 /* CardSelection */,
@@ -289,6 +301,17 @@
 			path = CpfInput;
 			sourceTree = "<group>";
 		};
+		81D35C5D234A640C0043F9DF /* Onboarding */ = {
+			isa = PBXGroup;
+			children = (
+				81D35C5F234A64A60043F9DF /* scrollViewStoryboard.storyboard */,
+				81D35C61234A64A60043F9DF /* scrollViewViewController.swift */,
+				81D35C5E234A64A60043F9DF /* Slide.swift */,
+				81D35C60234A64A60043F9DF /* Slide.xib */,
+			);
+			path = Onboarding;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -349,10 +372,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				81D35C64234A64A60043F9DF /* Slide.xib in Resources */,
 				77AD3D01234A1D5500AB1F01 /* FinishCardStoryboard.storyboard in Resources */,
 				817F5E0E2349D8AD00436BB0 /* Boston-SemiBoldIt.otf in Resources */,
 				817F5E102349D8AD00436BB0 /* Boston-Light.otf in Resources */,
 				817F5E122349D8AD00436BB0 /* Boston-Heavy.otf in Resources */,
+				81D35C5C234A60AB0043F9DF /* 257-favorie.json in Resources */,
 				817F5E092349D8AD00436BB0 /* Boston-ThinIt.otf in Resources */,
 				812F01CE2349A61300E10135 /* Login.storyboard in Resources */,
 				817F5E132349D8AD00436BB0 /* Boston-Regular.otf in Resources */,
@@ -373,6 +398,7 @@
 				817F5E0F2349D8AD00436BB0 /* Boston-RegularIt.otf in Resources */,
 				811D53BF2349EB0A00C17E02 /* ContactView.storyboard in Resources */,
 				817F5E062349D8AD00436BB0 /* Boston-ExtraLight.otf in Resources */,
+				81D35C63234A64A60043F9DF /* scrollViewStoryboard.storyboard in Resources */,
 				817F5E0C2349D8AD00436BB0 /* Boston-Thin.otf in Resources */,
 				77A0A6762349CCDE00291659 /* cardSelection.storyboard in Resources */,
 			);
@@ -429,11 +455,13 @@
 			files = (
 				77AD3CFE234A196D00AB1F01 /* IdentityViewController.swift in Sources */,
 				811D53CB2349F3DB00C17E02 /* EmailViewController.swift in Sources */,
+				81D35C65234A64A60043F9DF /* scrollViewViewController.swift in Sources */,
 				81D35C4E234A3F8E0043F9DF /* CpfInput.swift in Sources */,
 				811D53BD2349EAFE00C17E02 /* ContactViewController.swift in Sources */,
 				812F01CC2349A5FA00E10135 /* LoginViewController.swift in Sources */,
 				77A0A67A2349CD6300291659 /* cardSelectionViewController.swift in Sources */,
 				77AD3D03234A1D8D00AB1F01 /* FinishCardViewController.swift in Sources */,
+				81D35C62234A64A60043F9DF /* Slide.swift in Sources */,
 				812F01B12349A55A00E10135 /* AppDelegate.swift in Sources */,
 				81D35C59234A52D80043F9DF /* SignInViewController.swift in Sources */,
 				812F01B32349A55A00E10135 /* SceneDelegate.swift in Sources */,
